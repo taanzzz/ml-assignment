@@ -1,0 +1,30 @@
+{
+  "pipeline_version": "1.0.0",
+  "run_id": "20260905T121522Z_f27df8",
+  "image_size": [
+    180,
+    180
+  ],
+  "channels": 1,
+  "decoder": "tf.io.decode_image(channels=1, expand_animations=False)",
+  "resize": "bilinear with antialias=True",
+  "input_range": "float32 pixels in 0..255; do NOT divide by 255 outside the model",
+  "normalization": "Rescaling(1/255) is included in the saved model",
+  "class_mapping": {
+    "0": "NORMAL",
+    "1": "PNEUMONIA"
+  },
+  "positive_class": "PNEUMONIA",
+  "threshold": 0.26900339126586914,
+  "threshold_source": "validation set only; maximize positive-class F1; ties choose largest threshold",
+  "checkpoint_selection": "maximum validation Keras interpolated PR-AUC",
+  "best_epoch_one_based": 27,
+  "model_sha256": "cfefa03523e45140e0154a272eced061e227731ebc6b0ac8ea396052b66fc9ee",
+  "manifest_sha256": {
+    "train": "58f84b8c3d5066c365d36bb4f7d76825c08afc5f17381ebdbf5bc3ad3359299f",
+    "validation": "876faec6ac4e8ff2b52971c597f8a4e59adeb148cc24533002987f7d7ea7c979",
+    "test": "e175e435e23c62ca24d3567a6d565246d1e8085f5d20bd1310ea3777dadb23fe"
+  },
+  "frozen_at_utc": "2026-09-05T12:52:08.226814+00:00",
+  "not_for_clinical_use": true
+}

@@ -1,0 +1,4 @@
+model,accuracy,precision_yes,recall_yes,f1_yes,roc_auc_test,roc_auc_cv5fold
+baseline,0.9012,0.6445,0.3478,0.4518,0.9056,0.9066
+class_balanced,0.8457,0.4182,0.8147,0.5527,0.9079,0.9096
+grid_search_best,C=0.1,,,,0.9061,0.9072

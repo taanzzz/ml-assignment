@@ -1,0 +1,33 @@
+{
+  "pipeline_version": "1.0.0",
+  "run_id": "20260905T121522Z_f27df8",
+  "seed": 42,
+  "image_size": [
+    180,
+    180
+  ],
+  "channels": 1,
+  "batch_size": 32,
+  "max_epochs": 30,
+  "learning_rate": 0.001,
+  "filters": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "dense_units": 128,
+  "dropout": 0.4,
+  "l2": 0.0001,
+  "split_policy": "pool_original_train_val_then_first_stratified_group_fold",
+  "n_splits": 5,
+  "grouping_policy": "filename_hint_when_available_else_exact_pixel_hash",
+  "test_overlap_policy": "exclude_development_hash_and_filename_hint_overlaps",
+  "checkpoint_monitor": "val_pr_auc",
+  "checkpoint_mode": "max",
+  "threshold_policy": "max_validation_positive_class_f1_ties_choose_largest_threshold",
+  "class_mapping": {
+    "0": "NORMAL",
+    "1": "PNEUMONIA"
+  }
+}

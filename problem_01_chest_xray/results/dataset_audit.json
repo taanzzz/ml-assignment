@@ -1,0 +1,19 @@
+{
+  "candidate_images": 5856,
+  "readable_images": 5856,
+  "invalid_images": 0,
+  "original_development_images": 5232,
+  "clean_development_images": 4753,
+  "excluded_development_images": 479,
+  "exclusions_by_reason": {
+    "filename_hint_group_also_in_original_test": 457,
+    "duplicate_pixels_within_development": 22
+  },
+  "readable_test_images_retained": 624,
+  "validation_fraction_of_clean_development": 0.19734904270986744,
+  "manifest_sha256": {
+    "train": "58f84b8c3d5066c365d36bb4f7d76825c08afc5f17381ebdbf5bc3ad3359299f",
+    "validation": "876faec6ac4e8ff2b52971c597f8a4e59adeb148cc24533002987f7d7ea7c979",
+    "test": "e175e435e23c62ca24d3567a6d565246d1e8085f5d20bd1310ea3777dadb23fe"
+  }
+}

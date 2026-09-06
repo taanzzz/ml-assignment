@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 30,
+  "best_epoch_one_based": 27,
+  "best_validation_keras_pr_auc": 0.9991758465766907,
+  "training_seconds": 1703.3845840149997,
+  "parameter_count": 1207585
+}
