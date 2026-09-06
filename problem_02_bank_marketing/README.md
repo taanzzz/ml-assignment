@@ -19,7 +19,7 @@ Predict whether a banking customer will subscribe to a term deposit (`y = yes/no
 - **Interpretability:** Logistic regression coefficients reveal which customer attributes drive subscription decisions, providing actionable business insights.
 
 ### Dataset
-- **Source:** [UCI Machine Learning Repository - Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+- **Source:** [UCI Machine Learning Repository - Bank Marketing Dataset](https://drive.google.com/drive/folders/1cizmT7mHhWO5gM3AUbtiPaFDm2J9MHWN?usp=sharing)
 - **Name:** `bank-full.csv`
 - **Size:** 45,211 customer records × 17 attributes
 - **Target:** `y` (binary: "yes" or "no")

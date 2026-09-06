@@ -16,7 +16,7 @@ This project develops a from-scratch convolutional neural network (CNN) to autom
 - **NORMAL** (Class 0): Healthy lungs with no pneumonia
 - **PNEUMONIA** (Class 1): Lungs showing pneumonia indicators
 
-**Dataset Source:** [UCI Machine Learning Repository - Chest X-Ray Images](https://drive.google.com/file/d/1219EeGE1XTJVXYaulynJSa3BXGsbNCLx/view?usp=sharing)
+**Dataset Source:** [UCI Machine Learning Repository - Chest X-Ray Images](https://drive.google.com/drive/folders/1UK7XRo1Zgrm-cbKTGZ8F6gNt-5hzUhGQ?usp=sharing)
 - Original claim: 5,863 images
 - **Actual count (verified):** 5,856 readable images (all JPEG/PNG format)
 - Structure: Organized into `train/`, `val/`, and `test/` splits, each with `NORMAL/` and `PNEUMONIA/` subdirectories
